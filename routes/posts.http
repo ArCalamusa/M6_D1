@@ -1,0 +1,15 @@
+GET http://localhost:5050/posts
+
+######
+
+POST http://localhost:5050/posts/new HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Titolo2",
+    "content": "lorem ipsum dolor sit amet...",
+    "author": "Mimmo",
+    "rate": 5
+}
+
+######
